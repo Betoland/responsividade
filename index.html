@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alberto Leal | Front-end Developer</title>
+    <meta name="author" content="Alberto Leal">
+    <meta name="description" content="Minha primeira page responsiva do mobile ao desktop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="front-end, developer, mobile">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/icon/android-icon-96x96.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d8f9bfa0d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><img class="logo" src="img/logo/als-black.png" alt="logomarca"></a>
+        <button class="btn-menu"><i class="fas fa-bars fa-2x"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fas fa-times fa-2x"></i></a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CLIENTES</a></li>
+                <li><a href="#">PROJETOS</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="title">
+            <h2>OUSE INOVAR!</h2>
+            <h3>Criamos experiências e estabelecemos ações estratégicas que conectam marcas e consumidores. </h3>
+        </div>
+        <div class="buttons">
+            <button class="btn-cadastrar">CADASTRAR<i class="fas fa-arrow-alt-circle-right"></i></button>
+            <button class="btn-sobre">SOBRE<i class="fas fa-question-circle"></i></button>
+        </div>
+    </div>
+    <main class="servicos">
+        <article class="servico">
+            <a href="#"><img src="img/pexels-tranmautritam-285814.jpg" alt="Capanhas Publicitárias"></a>
+            <div class="inner">
+                <a href="#">Capanhas Publicitárias</a>
+                <h4>Impressos, VTS e Jingles</h4>
+                <p>Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais.
+                    Eles farão toda campanha publicitária. VT, outdoor, folder, anúncio e muito mais pela sua empresa no mais alto padrão de qualidade. </p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/pexels-pixabay-270360.jpg" alt="Desenvolvimento Web"></a>
+            <div class="inner">
+                <a href="#">Desenvolvimento Web</a>
+                <h4>Impressos, VTS e Jingles</h4>
+                <p>Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais.
+                    Eles farão toda campanha publicitária. VT, outdoor, folder, anúncio e muito mais pela sua empresa no mais alto padrão de qualidade. </p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/pexels-fauxels-3183165.jpg" alt="Equipe capacitada"></a>
+            <div class="inner">
+                <a href="#">Equipe capacitada</a>
+                <h4>Impressos, VTS e Jingles</h4>
+                <p>Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais.
+                    Eles farão toda campanha publicitária. VT, outdoor, folder, anúncio e muito mais pela sua empresa no mais alto padrão de qualidade. </p>
+            </div>
+        </article>
+    </main>
+    <footer></footer>
+   <!-- JQUERY -->
+     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function() {
+            $(".menu").show();
+        });
+
+        $(".btn-close").click(function() {
+            $(".menu").hide();
+        });
+
+    </script>
+    <!-- FIM DO JQUERY -->
+</body>
+
+</html>
